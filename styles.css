@@ -1,0 +1,97 @@
+@font-face {
+    font-family: customFont;
+    src: url(DawningofaNewDay-Regular.ttf);
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    font-family: customFont;
+    font-size: 60px;
+    word-spacing: 15px;
+    color: rgb(56, 56, 56);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin: 0px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    height: 90px;
+}
+
+.upperContainer{
+    display: flex;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-width: 3px;
+    border-color: rgb(56, 56, 56);
+    justify-content: center;
+    background-color: rgb(235, 235, 235);
+}
+
+
+#test {
+    display: grid;
+    border-style: solid;
+    border-color: rgb(36, 36, 36);
+    border-width: 4px;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 10px 10px grey;
+    }
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.outerContainer {
+    display: flex;
+    gap: 12.5%;
+    justify-content: flex-start;
+    margin-top: 50px;
+    margin-left: 8%;
+}
+
+.btnColor {
+    border: rgb(24, 24, 24);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 5px 5px grey;
+    font-weight: bolder;
+    background-color: rgb(243, 243, 243);
+}
+
+#color {
+    cursor: pointer;
+}
+
+
+.btns {
+    padding: 15px;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(24, 24, 24);
+    border-radius: 4px;
+    border-width: 3px;
+    box-shadow: 5px 5px grey;
+    cursor: pointer;
+    font-weight: bolder;
+    background-color: rgb(243, 243, 243);
+    transition-duration: 0.4s;
+}
+
+.btns:hover {
+    background-color: #5c5c5c;
+    color: rgb(172, 238, 255);
+    border-color: rgb(112, 226, 255);
+}

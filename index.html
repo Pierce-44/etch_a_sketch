@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a Sketch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="upperContainer">
+        <h1>Etch a Sketch</h1>
+    </div>    
+    <div class="outerContainer">
+        <div class="buttonContainer">
+            <div class="btnColor">
+                <input type="color" id="color" name="head" ></input>
+                <label id="colorVal">Pick a color</label>
+            </div>
+            <button class="btns" id="eraser">Eraser</button>
+            <button class="btns" id="erase">Clear current grid</button>        
+            <button class="btns" id="clearBtn">Create a new grid</button>
+        </div>
+        <div class="squareContainer" id="test"></div>
+    </div>
+    <div id="google_translate_element"></div>
+
+    <script src="javascript.js"></script>
+    
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> 
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'pt,en'}, 'google_translate_element');
+        }
+    </script>
+</body>
+</html>
